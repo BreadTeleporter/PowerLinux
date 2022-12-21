@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, rgb(172, 172, 172), lightgrey);
+}
+.navbar a{
+    font-size: 45px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: inherit;
+}
+.navbar a:hover{
+    color: white;
+    cursor: pointer;
+}
+.active{
+    font-weight: bold;
+}
+#name{
+    float: right;
+    font-size: 45px;
+}
+.content{
+    position: absolute;
+    left: 5%;
+}
+.imgtxt{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#disclamer{
+    color: red;
+}
+#logo{
+    width: 50px;
+    float: right;
+}
